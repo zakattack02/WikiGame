@@ -34,7 +34,7 @@ public class GUI extends JFrame {
      */
     public GUI() {
         setContentPane(rootPanel);
-        setTitle("CS 242 Project - Zak Konik");
+        setTitle("CS 242 Project - Zak Konik, Trenton Scott");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 600);
         setLocationRelativeTo(null);
