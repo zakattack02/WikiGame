@@ -38,8 +38,6 @@ public class ListCreator {
      * Generates strings by appending random characters to the end of selected base strings.
      * For each base string, creates multiple new strings by adding random characters.
      * Duplicates are automatically removed.
-     * Uses the makeList concept but with random characters instead of sequential numbers.
-     *
      * @param baseStrings the list of base strings to extend
      * @param countPerBase number of strings to generate per base string
      * @param additionalChars number of random characters to append to the end
@@ -93,12 +91,11 @@ public class ListCreator {
     }
 
     /**
-     * Generates strings by prepending random characters to the beginning of selected base strings.
-     * For each base string, creates multiple new strings by adding random characters at the start.
-     * For right-side columns in the game, prepends UPPERCASE letters regardless of the base string's case.
-     * Duplicates are automatically removed.
+     * Generates strings by prepending random characters to the beginning of selected strings.
+     * For each string, creates multiple new strings by adding random characters at the start.
+     * For right-side columns, prepends UPPERCASE letters regardless of the base string's case.
+     * Duplicates are removed.
      * Uses the makeList concept but prepends random characters instead of using a prefix.
-     *
      * @param baseStrings the list of base strings to extend
      * @param countPerBase number of strings to generate per base string
      * @param additionalChars number of random characters to prepend to the beginning

@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="800" height="600"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-15978461"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="e3562" binding="headerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -13,7 +15,9 @@
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-15978461"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="a1a3e" class="javax.swing.JButton" binding="newChallengeButton">
@@ -142,10 +146,9 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="listR3c" class="javax.swing.JList" binding="listR3" >
+                  <component id="listR3c" class="javax.swing.JList" binding="listR3">
                     <constraints/>
-                    <properties>
-                    </properties>
+                    <properties/>
                   </component>
                 </children>
               </scrollpane>
@@ -153,7 +156,9 @@
           </grid>
           <component id="54fcf" class="javax.swing.JSeparator">
             <constraints>
-              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <maximum-size width="1" height="1"/>
+              </grid>
             </constraints>
             <properties>
               <foreground color="-16777216"/>
